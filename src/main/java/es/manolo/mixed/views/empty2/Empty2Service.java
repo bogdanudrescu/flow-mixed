@@ -18,11 +18,11 @@ public class Empty2Service {
     }
     
     public MyBean hello(String s) {
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Thread.sleep(2000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         MyBean b = new MyBean();
         b.foo = "hello endpoint (sleeps 5 secs)";
         return b;
